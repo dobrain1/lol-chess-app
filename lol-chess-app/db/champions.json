@@ -1,0 +1,380 @@
+[
+    {
+        "id":"03",
+        "name": "Amumu",
+        "price": "1",
+        "image": "https://cdn.lolchess.gg/upload/images/champions/Amumu_1731058082-Amumu.png"
+    },
+    {
+        "id":"0c",
+        "name": "Darius",
+        "price": "1",
+        "image": "https://cdn.lolchess.gg/upload/images/champions/Darius_1731058129-Darius.png"
+    },
+    {
+        "id":"0d",
+        "name": "Draven",
+        "price": "1",
+        "image": "https://cdn.lolchess.gg/upload/images/champions/Draven_1731058141-Draven.png"
+    },
+    {
+        "id":"19",
+        "name": "Irelia",
+        "price": "1",
+        "image": "https://cdn.lolchess.gg/upload/images/champions/Irelia_1731058189-Irelia.png"
+    },
+    {
+        "id":"20",
+        "name": "Lux",
+        "price": "1",
+        "image": "https://cdn.lolchess.gg/upload/images/champions/Lux_1731058228-Lux.png"
+    },
+    {
+        "id":"2d",
+        "name": "Maddie",
+        "price": "1",
+        "image": "https://cdn.lolchess.gg/upload/images/champions/Maddie_1731058145-Maddie.jpg"
+    },
+    {
+        "id":"23",
+        "name": "Morgana",
+        "price": "1",
+        "image": "https://cdn.lolchess.gg/upload/images/champions/Morgana_1731058248-Morgana.png"
+    },
+    {
+        "id":"06",
+        "name": "Powder",
+        "price": "1",
+        "image": "https://cdn.lolchess.gg/upload/images/champions/Powder_1731058254-Powder.jpg"
+    },
+    {
+        "id":"2f",
+        "name": "Singed",
+        "price": "1",
+        "image": "https://cdn.lolchess.gg/upload/images/champions/Singed_1731058314-Singed.png"
+    },
+    {
+        "id":"12",
+        "name": "Steb",
+        "price": "1",
+        "image": "https://cdn.lolchess.gg/upload/images/champions/Steb_1731058204-Steb.jpg"
+    },
+    {
+        "id":"32",
+        "name": "Trundle",
+        "price": "1",
+        "image": "https://cdn.lolchess.gg/upload/images/champions/Trundle_1731058338-Trundle.png"
+    },
+    {
+        "id":"36",
+        "name": "Vex",
+        "price": "1",
+        "image": "https://cdn.lolchess.gg/upload/images/champions/Vex_1731058367-Vex.png"
+    },
+    {
+        "id":"28",
+        "name": "Violet",
+        "price": "1",
+        "image": "https://cdn.lolchess.gg/upload/images/champions/Violet_1731058155-Violet.jpg"
+    },
+    {
+        "id":"3c",
+        "name": "Zyra",
+        "price": "1",
+        "image": "https://cdn.lolchess.gg/upload/images/champions/Zyra_1731058407-Zyra.png"
+    },
+    {
+        "id":"01",
+        "name": "Akali",
+        "price": "2",
+        "image": "https://cdn.lolchess.gg/upload/images/champions/Akali_1731058073-Akali.png"
+    },
+    {
+        "id":"08",
+        "name": "Camille",
+        "price": "2",
+        "image": "https://cdn.lolchess.gg/upload/images/champions/Camille_1731058112-Camille.png"
+    },
+    {
+        "id":"1e",
+        "name": "Leona",
+        "price": "2",
+        "image": "https://cdn.lolchess.gg/upload/images/champions/Leona_1731058220-Leona.png"
+    },
+    {
+        "id":"25",
+        "name": "Nocturne",
+        "price": "2",
+        "image": "https://cdn.lolchess.gg/upload/images/champions/Nocturne_1731058109-Nocturne.jpg"
+    },
+    {
+        "id":"29",
+        "name": "Rell",
+        "price": "2",
+        "image": "https://cdn.lolchess.gg/upload/images/champions/Rell_1731058269-Rell.png"
+    },
+    {
+        "id":"2a",
+        "name": "Renata Glasc",
+        "price": "2",
+        "image": "https://cdn.lolchess.gg/upload/images/champions/Renata_1731058281-RenataGlasc.png"
+    },
+    {
+        "id":"2c",
+        "name": "Sett",
+        "price": "2",
+        "image": "https://cdn.lolchess.gg/upload/images/champions/Sett_1731058298-Sett.png"
+    },
+    {
+        "id":"31",
+        "name": "Tristana",
+        "price": "2",
+        "image": "https://cdn.lolchess.gg/upload/images/champions/Tristana_1731058331-Tristana.png"
+    },
+    {
+        "id":"35",
+        "name": "Urgot",
+        "price": "2",
+        "image": "https://cdn.lolchess.gg/upload/images/champions/Urgot_1731058357-Urgot.png"
+    },
+    {
+        "id":"27",
+        "name": "Vander",
+        "price": "2",
+        "image": "https://cdn.lolchess.gg/upload/images/champions/Vander_1731058270-Vander.jpg"
+    },
+    {
+        "id":"38",
+        "name": "Vladimir",
+        "price": "2",
+        "image": "https://cdn.lolchess.gg/upload/images/champions/Vladimir_1731058382-Vladimir.png"
+    },
+    {
+        "id":"39",
+        "name": "Zeri",
+        "price": "2",
+        "image": "https://cdn.lolchess.gg/upload/images/champions/Zeri_1731058388-Zeri.png"
+    },
+    {
+        "id":"3a",
+        "name": "Ziggs",
+        "price": "2",
+        "image": "https://cdn.lolchess.gg/upload/images/champions/Ziggs_1731058394-Ziggs.png"
+    },
+    {
+        "id":"05",
+        "name": "Blitzcrank",
+        "price": "3",
+        "image": "https://cdn.lolchess.gg/upload/images/champions/Blitzcrank_1731058100-Blitzcrank.png"
+    },
+    {
+        "id":"09",
+        "name": "Cassiopeia",
+        "price": "3",
+        "image": "https://cdn.lolchess.gg/upload/images/champions/Cassiopeia_1731058118-Cassiopeia.png"
+    },
+    {
+        "id":"11",
+        "name": "Ezreal",
+        "price": "3",
+        "image": "https://cdn.lolchess.gg/upload/images/champions/Ezreal_1731058160-Ezreal.png"
+    },
+    {
+        "id":"14",
+        "name": "Gangplank",
+        "price": "3",
+        "image": "https://cdn.lolchess.gg/upload/images/champions/Gangplank_1731058166-Gangplank.png"
+    },
+    {
+        "id":"1c",
+        "name": "Kog'Maw",
+        "price": "3",
+        "image": "https://cdn.lolchess.gg/upload/images/champions/KogMaw_1731058209-KogMaw.png"
+    },
+    {
+        "id":"04",
+        "name": "Loris",
+        "price": "3",
+        "image": "https://cdn.lolchess.gg/upload/images/champions/Loris_1731058129-Loris.jpg"
+    },
+    {
+        "id":"24",
+        "name": "Nami",
+        "price": "3",
+        "image": "https://cdn.lolchess.gg/upload/images/champions/Nami_1731058255-Nami.png"
+    },
+    {
+        "id":"26",
+        "name": "Nunu & Willump",
+        "price": "3",
+        "image": "https://cdn.lolchess.gg/upload/images/champions/Nunu_1731058262-NunuWillump.png"
+    },
+    {
+        "id":"0a",
+        "name": "Renni",
+        "price": "3",
+        "image": "https://cdn.lolchess.gg/upload/images/champions/Renni_1731058306-Renni.png"
+    },
+    {
+        "id":"13",
+        "name": "Scar",
+        "price": "3",
+        "image": "https://cdn.lolchess.gg/upload/images/champions/Scar_1731058197-Scar.jpg"
+    },
+    {
+        "id":"16",
+        "name": "Smeech",
+        "price": "3",
+        "image": "https://cdn.lolchess.gg/upload/images/champions/Smeech_1731058189-Smeech.jpg"
+    },
+    {
+        "id":"30",
+        "name": "Swain",
+        "price": "3",
+        "image": "https://cdn.lolchess.gg/upload/images/champions/Swain_1731058325-Swain.png"
+    },
+    {
+        "id":"33",
+        "name": "Twisted Fate",
+        "price": "3",
+        "image": "https://cdn.lolchess.gg/upload/images/champions/TwistedFate_1731058344-TwistedFate.png"
+    },
+    {
+        "id":"02",
+        "name": "Ambessa",
+        "price": "4",
+        "image": "https://cdn.lolchess.gg/upload/images/champions/Ambessa_1731058093-Ambessa.png"
+    },
+    {
+        "id":"0b",
+        "name": "Corki",
+        "price": "4",
+        "image": "https://cdn.lolchess.gg/upload/images/champions/Corki_1731058123-Corki.png"
+    },
+    {
+        "id":"0e",
+        "name": "Dr. Mundo",
+        "price": "4",
+        "image": "https://cdn.lolchess.gg/upload/images/champions/DrMundo_1731058135-DrMundo.png"
+    },
+    {
+        "id":"0f",
+        "name": "Ekko",
+        "price": "4",
+        "image": "https://cdn.lolchess.gg/upload/images/champions/Ekko_1731058147-Ekko.png"
+    },
+    {
+        "id":"10",
+        "name": "Elise",
+        "price": "4",
+        "image": "https://cdn.lolchess.gg/upload/images/champions/Elise_1731058154-Elise.png"
+    },
+    {
+        "id":"15",
+        "name": "Garen",
+        "price": "4",
+        "image": "https://cdn.lolchess.gg/upload/images/champions/Garen_1731058172-Garen.png"
+    },
+    {
+        "id":"17",
+        "name": "Heimerdinger",
+        "price": "4",
+        "image": "https://cdn.lolchess.gg/upload/images/champions/Heimerdinger_1731058177-Heimerdinger.png"
+    },
+    {
+        "id":"18",
+        "name": "Illaoi",
+        "price": "4",
+        "image": "https://cdn.lolchess.gg/upload/images/champions/Illaoi_1731058183-Illaoi.png"
+    },
+    {
+        "id":"2e",
+        "name": "Silco",
+        "price": "4",
+        "image": "https://cdn.lolchess.gg/upload/images/champions/Silco_1731058214-Silco.jpg"
+    },
+    {
+        "id":"34",
+        "name": "Twitch",
+        "price": "4",
+        "image": "https://cdn.lolchess.gg/upload/images/champions/Twitch_1731058349-Twitch.png"
+    },
+    {
+        "id":"37",
+        "name": "Vi",
+        "price": "4",
+        "image": "https://cdn.lolchess.gg/upload/images/champions/Vi_1731058374-Vi.png"
+    },
+    {
+        "id":"3b",
+        "name": "Zoe",
+        "price": "4",
+        "image": "https://cdn.lolchess.gg/upload/images/champions/Zoe_1731058401-Zoe.png"
+    },
+    {
+        "id":"07",
+        "name": "Caitlyn",
+        "price": "5",
+        "image": "https://cdn.lolchess.gg/upload/images/champions/Caitlyn_1731058105-Caitlyn.png"
+    },
+    {
+        "id":"1a",
+        "name": "Jayce",
+        "price": "5",
+        "image": "https://cdn.lolchess.gg/upload/images/champions/Jayce_1731058195-Jayce.png"
+    },
+    {
+        "id":"1b",
+        "name": "Jinx",
+        "price": "5",
+        "image": "https://cdn.lolchess.gg/upload/images/champions/Jinx_1731058201-Jinx.png"
+    },
+    {
+        "id":"1d",
+        "name": "LeBlanc",
+        "price": "5",
+        "image": "https://cdn.lolchess.gg/upload/images/champions/Leblanc_1731058215-LeBlanc.png"
+    },
+    {
+        "id":"21",
+        "name": "Malzahar",
+        "price": "5",
+        "image": "https://cdn.lolchess.gg/upload/images/champions/Malzahar_1731058235-Malzahar.png"
+    },
+    {
+        "id":"22",
+        "name": "Mordekaiser",
+        "price": "5",
+        "image": "https://cdn.lolchess.gg/upload/images/champions/Mordekaiser_1731058242-Mordekaiser.png"
+    },
+    {
+        "id":"2b",
+        "name": "Rumble",
+        "price": "5",
+        "image": "https://cdn.lolchess.gg/upload/images/champions/Rumble_1731058291-Rumble.png"
+    },
+    {
+        "id":"1f",
+        "name": "Sevika",
+        "price": "5",
+        "image": "https://cdn.lolchess.gg/upload/images/champions/Sevika_1731058172-Sevika.jpg"
+    },
+    {
+        "id":"3d",
+        "name": "Mel",
+        "price": "6",
+        "image": "https://cdn.lolchess.gg/upload/images/champions/Mel_1732679266-tft13_missmage_square.tft_set13_evolved.png"
+    },
+    {
+        "id":"3e",
+        "name": "Viktor",
+        "price": "6",
+        "image": "https://cdn.lolchess.gg/upload/images/champions/Viktor_1732679470-tft13_viktor_square.tft_set13_evolved.png"
+    },
+    {
+        "id":"3f",
+        "name": "Warwick",
+        "price": "6",
+        "image": "https://cdn.lolchess.gg/upload/images/champions/Warwick_1732677801-tft13_warwick_square.tft_set13_evolved.png"
+    }
+]
