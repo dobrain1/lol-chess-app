@@ -1,0 +1,68 @@
+@use '../../const/colors.scss' as *;
+
+.slot {
+  position: relative;
+  width: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: grab;
+
+  .champPrice {
+    position: absolute;
+    right: 2px;
+    top: 2px;
+    color: white;
+    width: 20px;
+    height: 20px;
+    border-top-right-radius: 10%;
+
+    span {
+      text-shadow:
+        black -1px 0px 2px,
+        black 0px 1px 2px,
+        black 1px 0px 2px,
+        black 0px -1px 2px;
+    }
+  }
+
+  .champName {
+    position: absolute;
+    top: 54px;
+    color: white;
+  }
+
+  .cost1 {
+    background: $champ1cost;
+  }
+
+  .cost2 {
+    background: $champ2cost;
+  }
+
+  .cost3 {
+    background: $champ3cost;
+  }
+
+  .cost4 {
+    background: $champ4cost;
+  }
+
+  .cost5 {
+    background: $champ5cost;
+  }
+
+  .cost6 {
+    background: $champ6cost;
+  }
+
+  .imgWrapper {
+    position: relative;
+    padding: 4px;
+    border-radius: 10%;
+
+    img {
+      border-radius: 10%;
+    }
+  }
+}

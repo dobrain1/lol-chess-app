@@ -1,3 +1,5 @@
+@use '../../const/colors.scss' as *;
+
 .slot {
   width: 100%;
   height: 100%;
@@ -5,7 +7,6 @@
 
   .polygon {
     clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
-    background: black;
     position: absolute;
     top: 0;
     left: 0;
@@ -13,9 +14,36 @@
     height: 100%;
     padding: 4px;
 
+    .noChamp {
+      background: black;
+    }
+
+    .cost1 {
+      background: $champ1cost;
+    }
+
+    .cost2 {
+      background: $champ2cost;
+    }
+
+    .cost3 {
+      background: $champ3cost;
+    }
+
+    .cost4 {
+      background: $champ4cost;
+    }
+
+    .cost5 {
+      background: $champ5cost;
+    }
+
+    .cost6 {
+      background: $champ6cost;
+    }
+
     .innerPolygon {
       clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
-      background: black;
       position: absolute;
       top: 2px;
       left: 2px;
@@ -33,7 +61,7 @@
           0% 75%,
           0% 25%
         );
-        background: mediumaquamarine 50% / cover no-repeat;
+        background: 50% / cover no-repeat;
         background-size: 118%;
       }
     }

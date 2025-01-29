@@ -1,0 +1,11 @@
+.champContainer {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  flex-wrap: wrap;
+  max-width: 800px;
+  padding: 4px;
+  background: #24303a;
+}

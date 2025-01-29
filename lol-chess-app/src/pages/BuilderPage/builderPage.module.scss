@@ -1,15 +1,12 @@
-.builderWrap {
-  display: grid;
-  justify-content: center;
-  gap: 0 4px;
-  grid-template-columns: repeat(7, 84px);
-  grid-template-rows: repeat(4, 96px);
+.saveBtn {
+  border: 2px solid black;
 
-  .leftRaw {
-    transform: translateX(calc(-25% - 1px));
+  &:hover {
+    background-color: paleturquoise;
+    cursor: pointer;
   }
 
-  .rightRaw {
-    transform: translateX(calc(25% + 1px));
+  &:active {
+    background-color: mediumturquoise;
   }
 }
