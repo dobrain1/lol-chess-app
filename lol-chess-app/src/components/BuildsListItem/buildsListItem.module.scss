@@ -1,0 +1,25 @@
+.list {
+  border: 2px solid wheat;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 16px;
+  border-radius: 10px;
+
+  &:hover {
+    background: #303e4c;
+  }
+
+  .leftContainer {
+    display: flex;
+    gap: 8px;
+    margin: 12px;
+
+    .noChampion {
+    }
+  }
+
+  .rightContainer {
+    margin: 12px;
+  }
+}

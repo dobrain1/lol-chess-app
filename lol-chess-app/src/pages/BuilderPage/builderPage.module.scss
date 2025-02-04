@@ -1,12 +1,34 @@
-.saveBtn {
-  border: 2px solid black;
+.main {
+  padding: 30px;
+  background-color: #1a2029;
 
-  &:hover {
-    background-color: paleturquoise;
-    cursor: pointer;
-  }
+  .contentContainer {
+    //border: 2px solid white;
+    justify-items: center;
 
-  &:active {
-    background-color: mediumturquoise;
+    .builderContainer {
+      display: flex;
+      justify-content: center;
+      gap: 12px;
+      margin: 12px;
+
+      .btnContainer {
+        display: flex;
+        //height: 100%;
+
+        .saveBtn {
+          border: 2px solid black;
+
+          &:hover {
+            background-color: paleturquoise;
+            cursor: pointer;
+          }
+
+          &:active {
+            background-color: mediumturquoise;
+          }
+        }
+      }
+    }
   }
 }

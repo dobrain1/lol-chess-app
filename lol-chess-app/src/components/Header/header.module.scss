@@ -1,0 +1,19 @@
+.header {
+  background: #2ac850;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+
+  .headerBtn {
+    background: #107e2c;
+    border: none;
+    border-radius: 10px;
+
+    &:hover {
+      opacity: 0.8;
+      cursor: pointer;
+    }
+  }
+}

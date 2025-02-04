@@ -5,5 +5,5 @@ export default interface champion {
   name: string;
   price: string;
   image: string;
-  item?: ItemType;
+  items?: [ItemType | null, ItemType | null, ItemType | null];
 }
