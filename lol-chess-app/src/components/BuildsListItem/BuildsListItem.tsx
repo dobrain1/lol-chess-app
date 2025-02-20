@@ -1,5 +1,5 @@
 import styles from './buildsListItem.module.scss';
-import { FC } from 'react';
+import React, { FC } from 'react';
 import ChampionType from '../../types/ChampionType.ts';
 import BuildChampionItem from '../BuildChampionItem/BuildChampionItem.tsx';
 import BuildDataType from '../../types/BuildDataType.ts';
@@ -11,11 +11,13 @@ interface ComponentProps {
 }
 
 const BuildsListItem: FC<ComponentProps> = ({ deleteBuild, buildData }) => {
-  const removeBuild = (e: Event) => {
+  const removeBuild = (e: React.MouseEvent<HTMLButtonElement>) => {
     e.stopPropagation()
     deleteBuild(buildData.id);
   };
   let navigate = useNavigate();
+  // @ts-ignore
+  // @ts-ignore
   return (
     <div
       className={styles.list}
@@ -27,7 +29,7 @@ const BuildsListItem: FC<ComponentProps> = ({ deleteBuild, buildData }) => {
         ))}
       </div>
       <div className={styles.rightContainer}>
-        <button onClick={()=> removeBuild}>Удалить</button>
+        <button onClick={(e) => removeBuild(e)}>Удалить</button>
       </div>
     </div>
   );
