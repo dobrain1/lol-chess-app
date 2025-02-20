@@ -11,7 +11,10 @@ interface ComponentProps {
 }
 
 const BuildsListItem: FC<ComponentProps> = ({ deleteBuild, buildData }) => {
-  const removeBuild = () => deleteBuild(buildData.id);
+  const removeBuild = (e: Event) => {
+    e.stopPropagation()
+    deleteBuild(buildData.id);
+  };
   let navigate = useNavigate();
   return (
     <div
@@ -24,7 +27,7 @@ const BuildsListItem: FC<ComponentProps> = ({ deleteBuild, buildData }) => {
         ))}
       </div>
       <div className={styles.rightContainer}>
-        <button onClick={removeBuild}>Удалить</button>
+        <button onClick={()=> removeBuild}>Удалить</button>
       </div>
     </div>
   );
