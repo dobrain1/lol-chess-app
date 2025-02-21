@@ -59,10 +59,13 @@ const championBuilderSlice = createSlice({
         state.slots = action.payload.fullList;
       }
     },
+    fullEmptySlot: (state) => {
+      state.slots = Array(28).fill(null);
+    },
   },
 });
 
-export const { fillSlot, emptySlot, addItem, fullFillSlot } =
+export const { fillSlot, emptySlot, addItem, fullFillSlot, fullEmptySlot } =
   championBuilderSlice.actions;
 
 export default championBuilderSlice.reducer;

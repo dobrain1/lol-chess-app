@@ -16,8 +16,6 @@ const BuildsListItem: FC<ComponentProps> = ({ deleteBuild, buildData }) => {
     deleteBuild(buildData.id);
   };
   let navigate = useNavigate();
-  // @ts-ignore
-  // @ts-ignore
   return (
     <div
       className={styles.list}

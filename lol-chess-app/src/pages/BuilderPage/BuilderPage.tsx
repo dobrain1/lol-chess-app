@@ -1,5 +1,5 @@
 import Builder from '../../components/Builder/Builder';
-import { FC, useEffect, useState } from 'react';
+import { FC, useEffect } from 'react';
 import ChampList from '../../components/ChampList/ChampList';
 import { DndContext, DragEndEvent } from '@dnd-kit/core';
 import { AppDispatch, RootState } from '../../store/store.ts';
@@ -8,6 +8,7 @@ import {
   addItem,
   emptySlot,
   fillSlot,
+  fullEmptySlot,
   fullFillSlot,
 } from '../../slices/championBuilderSlice.ts';
 import ChampionType from '../../types/ChampionType';
@@ -22,8 +23,7 @@ import { getBuilds } from '../../helper/getBuilds.ts';
 import BuildDataType from '../../types/BuildDataType.ts';
 
 const BuilderPage: FC = () => {
-  const [buildData, setBuildData] = useState<BuildDataType[]>([]);
-  const dispatch: AppDispatch = useDispatch();
+  const dispatch: AppDispatch = useDispatch<AppDispatch>();
   const slot = useSelector((state: RootState) => state.championBuilder.slots);
 
   const handleDragEnd = (event: DragEndEvent) => {
@@ -86,16 +86,18 @@ const BuilderPage: FC = () => {
 
   const { buildId } = useParams();
 
-  useEffect(() => {
-    setBuildData(getBuilds());
-  }, []);
+  const data = getBuilds();
 
-  if (buildId) {
-    const build: BuildDataType | undefined = buildData.find(
-      (build: BuildDataType) => build.id === +buildId,
-    );
-    if (build) dispatch(fullFillSlot(build));
-  }
+  useEffect(() => {
+    if (buildId) {
+      const build: BuildDataType | undefined = data.find(
+        (build: BuildDataType) => build.id === +buildId,
+      );
+      if (build) dispatch(fullFillSlot(build));
+    } else {
+      dispatch(fullEmptySlot());
+    }
+  }, [buildId]);
 
   return (
     <>
