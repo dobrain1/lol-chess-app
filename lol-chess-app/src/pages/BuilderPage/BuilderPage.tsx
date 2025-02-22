@@ -126,7 +126,6 @@ const BuilderPage: FC = () => {
           </div>
         </DndContext>
       </div>
-      <div className={styles.footer}></div>
     </>
   );
 };

@@ -8,4 +8,14 @@
   padding: 8px;
   border-radius: 10px;
   background: #24303a;
+  height: 50vh;
+  overflow: hidden;
+  overflow-y: scroll;
+  scrollbar-width: none;
+
+  @media (max-width: 1136px) {
+    & {
+      max-width: 800px;
+    }
+  }
 }

@@ -30,6 +30,12 @@
     position: absolute;
     top: 54px;
     color: white;
+
+    text-shadow:
+      black -1px 0px 2px,
+      black 0px 1px 2px,
+      black 1px 0px 2px,
+      black 0px -1px 2px;
   }
 
   .cost1 {

@@ -6,12 +6,19 @@
   margin: 16px;
   border-radius: 10px;
 
+  @media (max-width: 582px) {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+  }
+
   &:hover {
     background: #303e4c;
   }
 
   .leftContainer {
     display: flex;
+    flex-wrap: wrap;
     gap: 8px;
     margin: 12px;
 

@@ -32,7 +32,7 @@ const ItemListItem: FC<ComponentProps> = ({ item }) => {
         id={item.name}
         style={{
           backgroundColor: '#107e2c',
-          maxWidth: '400px',
+          maxWidth: '180px',
         }}
         place="top"
       >

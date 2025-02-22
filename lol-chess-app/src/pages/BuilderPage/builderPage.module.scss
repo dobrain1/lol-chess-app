@@ -4,29 +4,52 @@
   min-height: 100vh;
 
   .contentContainer {
-    //border: 2px solid white;
     justify-items: center;
 
     .builderContainer {
       display: flex;
-      justify-content: center;
-      gap: 12px;
+      //align-items: center;
+      justify-content: space-between;
       margin: 12px;
 
-      .btnContainer {
-        display: flex;
-        //height: 100%;
+      @media (max-width: 908px) {
+        flex-direction: column;
+      }
 
-        .saveBtn {
-          border: 2px solid black;
+      .rightContainer {
+        @media (max-width: 1059px) {
+          max-width: 198px;
+        }
 
-          &:hover {
-            background-color: paleturquoise;
-            cursor: pointer;
+        @media (max-width: 954px) {
+          max-width: 152px;
+        }
+        @media (max-width: 908px) {
+          display: flex;
+          max-width: 800px;
+          margin: 8px;
+        }
+        .btnContainer {
+          display: flex;
+
+          @media (max-width: 908px) {
+            display: flex;
+            width: 60%;
+            flex-direction: column;
           }
 
-          &:active {
-            background-color: mediumturquoise;
+          .saveBtn {
+            border: 2px solid black;
+            flex: 1;
+
+            &:hover {
+              background-color: paleturquoise;
+              cursor: pointer;
+            }
+
+            &:active {
+              background-color: mediumturquoise;
+            }
           }
         }
       }

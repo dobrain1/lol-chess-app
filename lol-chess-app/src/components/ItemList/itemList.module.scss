@@ -8,4 +8,18 @@
   gap: 6px;
   overflow-y: scroll;
   scrollbar-width: none;
+
+  @media (max-width: 908px) {
+    & {
+      max-width: 612px;
+      max-height: 150px;
+      display: flex;
+      flex-wrap: wrap;
+      background: #24303a;
+      padding: 10px;
+      gap: 6px;
+      overflow-y: scroll;
+      scrollbar-width: none;
+    }
+  }
 }
