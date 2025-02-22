@@ -52,7 +52,6 @@
         "name": "Edge of Night",
         "image": "https://ddragon.leagueoflegends.com/cdn/14.23.1/img/tft-item/TFT_Item_GuardianAngel.png",
         "description": "Once per combat: At 60% Health, briefly become untargetable and shed negative effects. Then, gain 15% bonus Attack Speed.",
-        "components": [3, 5],
         "stats": ["+10% Attack Damage","+20 Armor"]
     },
     {
@@ -60,7 +59,6 @@
         "name": "Crownguard",
         "image": "https://ddragon.leagueoflegends.com/cdn/14.23.1/img/tft-item/TFT_Item_Crownguard.png",
         "description": "Combat start: Gain a 25% max Health Shield for 8 seconds. When the shield expires, gain 25 Ability Power.",
-        "components": [2, 8],
         "stats": ["+20 Ability Power","+20 Armor","+100 Health"]
     },
     {
@@ -68,7 +66,6 @@
         "name": "Giant Slayer",
         "image": "https://ddragon.leagueoflegends.com/cdn/14.23.1/img/tft-item/TFT_Item_MadredsBloodrazor.png",
         "description": "Gain 20% additional Damage Amp against enemies with more than 1750 max Health.",
-        "components": [7, 1],
         "stats": ["+25% Attack Damage","+25 Ability Power","+10% Attack Speed"]
     },
     {
@@ -76,7 +73,6 @@
         "name": "Blue buff",
         "image": "https://ddragon.leagueoflegends.com/cdn/14.23.1/img/tft-item/TFT_Item_BlueBuff.png",
         "description": "Gain 10 Mana after casting. When the holder gets a takedown, they deal 5% more damage for 8 seconds.",
-        "components": [4, 4],
         "stats": ["+15% Attack Damage","+15 Ability Power","+30 Mana"]
     },
     {
@@ -84,7 +80,6 @@
         "name": "Guardbreaker",
         "image": "https://ddragon.leagueoflegends.com/cdn/14.23.1/img/tft-item/TFT_Item_PowerGauntlet.png",
         "description": "After damaging a Shield, gain 15% additional Damage Amp for 3 seconds.",
-        "components": [3, 5],
         "stats": ["+10 Ability Power","+20% Attack Speed","+150 Health","+20% Crit Chance","+15% Damage Amp"]
     },
     {
@@ -92,7 +87,6 @@
         "name": "Guinsoo's Rageblade",
         "image": "https://ddragon.leagueoflegends.com/cdn/14.23.1/img/tft-item/TFT_Item_GuinsoosRageblade.png",
         "description": "Attacks grant 5% stacking Attack Speed.",
-        "components": [1, 8],
         "stats": ["+10 Ability Power","+10% Attack Speed"]
     },
     {
@@ -100,7 +94,6 @@
         "name": "Dragon's Claw",
         "image": "https://ddragon.leagueoflegends.com/cdn/14.23.1/img/tft-item/TFT_Item_DragonsClaw.png",
         "description": "Gain 9% max health. Every 2 seconds, heal 2.5% max Health.",
-        "components": [6, 6],
         "stats": ["+75 Magic Resist"]
     },
     {
@@ -108,7 +101,6 @@
         "name": "Spear of Shojin",
         "image": "https://ddragon.leagueoflegends.com/cdn/14.23.1/img/tft-item/TFT_Item_SpearOfShojin.png",
         "description": "Attacks grant 5 bonus Mana.",
-        "components": [7, 4],
         "stats": ["+15% Attack Damage","+15 Ability Power","+15 Mana"]
     },
     {
@@ -116,7 +108,6 @@
         "name": "Steadfast Heart",
         "image": "https://ddragon.leagueoflegends.com/cdn/14.23.1/img/tft-item/TFT_Item_NightHarvester.png",
         "description": "Gain 8% Durability. While above 50% Health, instead gain 15% Durability.",
-        "components": [2, 5],
         "stats": ["+20 Armor","+20% Crit Chance","+200 Health"]
     },
     {
@@ -124,7 +115,6 @@
         "name": "Nashor's Tooth",
         "image": "https://ddragon.leagueoflegends.com/cdn/14.23.1/img/tft-item/TFT_Item_Leviathan.png",
         "description": "After casting an Ability, gain 60% Attack Speed for 5 seconds.",
-        "components": [1, 3],
         "stats": ["+10 Ability Power","+10% Attack Speed","+150 Health"]
     },
     {
@@ -132,7 +122,6 @@
         "name": "Jeweled Gauntlet",
         "image": "https://ddragon.leagueoflegends.com/cdn/14.23.1/img/tft-item/TFT_Item_JeweledGauntlet.png",
         "description": "Abilities can critically strike. If the holder's abilities can already critically strike, gain 10% Critical Strike Damage instead.",
-        "components": [8, 5],
         "stats": ["+35 Ability Power","+35% Crit Chance"]
     },
     {
@@ -140,7 +129,6 @@
         "name": "Last Whisper",
         "image": "https://ddragon.leagueoflegends.com/cdn/14.23.1/img/tft-item/TFT_Item_LastWhisper.png",
         "description": "Physical damage 30% Sunders the target for 3 seconds. This effect does not stack.",
-        "components": [1, 5],
         "stats": ["+15% Attack Damage","+20% Attack Speed","+20% Crit Chance"]
     },
     {
@@ -148,7 +136,6 @@
         "name": "Protector's Vow",
         "image": "https://ddragon.leagueoflegends.com/cdn/14.23.1/img/tft-item/TFT_Item_FrozenHeart.png",
         "description": "Once per combat at 40% Health, gain a 25% max Health Shield that lasts 5 seconds and gain 20 Armor and 20 Magic Resist.",
-        "components": [2, 4],
         "stats": ["+20 Armor","+30 Ability Power"]
     },
     {
@@ -156,7 +143,6 @@
         "name": "Bramble Vest",
         "image": "https://ddragon.leagueoflegends.com/cdn/14.23.1/img/tft-item/TFT_Item_BrambleVest.png",
         "description": "Gain 7% max health. Take 8% reduced damage from attacks. When struck by any attack, deal 100 magic damage to all adjacent enemies.",
-        "components": [2, 2],
         "stats": ["+65 Armor"]
     },
     {
@@ -164,7 +150,6 @@
         "name": "Warmog's Armor",
         "image": "https://ddragon.leagueoflegends.com/cdn/14.23.1/img/tft-item/TFT_Item_WarmogsArmor.png",
         "description": "Gain 12% max health.",
-        "components": [3, 3],
         "stats": ["+600 Health"]
     },
     {
@@ -172,7 +157,6 @@
         "name": "Runaan's Hurricane",
         "image": "https://ddragon.leagueoflegends.com/cdn/14.23.1/img/tft-item/TFT_Item_RunaansHurricane.png",
         "description": "Attacks fire a bolt at a nearby enemy, dealing 60% Attack Damage AD as physical damage.",
-        "components": [1, 6],
         "stats": ["+25% Attack Damage","+10% Attack Speed"]
     },
     {
@@ -180,7 +164,6 @@
         "name": "Redemption",
         "image": "https://ddragon.leagueoflegends.com/cdn/14.23.1/img/tft-item/TFT_Item_Redemption.png",
         "description": "Heal allies within 1 hex for 15% of their missing Health every 5 seconds. They also gain 10% Durability for 5 seconds (this does not stack).",
-        "components": [3, 4],
         "stats": ["+15 Ability Power","+150 Health"]
     },
     {
@@ -188,7 +171,6 @@
         "name": "Bloodthirster",
         "image": "https://ddragon.leagueoflegends.com/cdn/14.23.1/img/tft-item/TFT_Item_Bloodthirster.png",
         "description": "Once per combat at 40% Health, gain a 25% max Health Shield that lasts up to 5 seconds.",
-        "components": [7, 6],
         "stats": ["+15 Ability Power","+15% Attack Damage"]
     },
     {
@@ -196,7 +178,6 @@
         "name": "Hextech Gunblade",
         "image": "https://ddragon.leagueoflegends.com/cdn/14.23.1/img/tft-item/TFT_Item_HextechGunblade.png",
         "description": "Heal the lowest percent Health ally for 25% of damage dealt.",
-        "components": [7, 8],
         "stats": ["+20 Ability Power","+20% Attack Damage"]
     },
     {
@@ -204,7 +185,6 @@
         "name": "Statikk Shiv",
         "image": "https://ddragon.leagueoflegends.com/cdn/14.23.1/img/tft-item/TFT_Item_StatikkShiv.png",
         "description": "Every 3rd attack deals 35 magic damage and 30% Shreds 4 enemies for 5 seconds.",
-        "components": [1, 4],
         "stats": ["+15 Ability Power","+15% Attack Speed","+15 Mana"]
     },
     {
@@ -212,7 +192,6 @@
         "name": "Deathblade",
         "image": "https://ddragon.leagueoflegends.com/cdn/14.23.1/img/tft-item/TFT_Item_Deathblade.png",
         "description": "Perfect peace and calm for the holder - and all who face it.",
-        "components": [7, 7],
         "stats": ["+55% Attack Damage"]
     },
     {
@@ -220,7 +199,6 @@
         "name": "Gargoyle Stoneplate",
         "image": "https://ddragon.leagueoflegends.com/cdn/14.23.1/img/tft-item/TFT_Item_GargoyleStoneplate.png",
         "description": "Gain 10 Armor and 10 Magic Resist for each enemy targeting the holder.",
-        "components": [2, 6],
         "stats": ["+25 Armor","+100 Health"]
     },
     {
@@ -228,7 +206,6 @@
         "name": "Morellonomicon",
         "image": "https://ddragon.leagueoflegends.com/cdn/14.23.1/img/tft-item/TFT_Item_Morellonomicon.png",
         "description": "Attacks and Abilities deal 1% Burn and 33% Wound to enemies for 10 seconds.",
-        "components": [8, 3],
         "stats": ["+25 Ability Power","+10% Attack Speed","+150 Health"]
     },
     {
@@ -236,7 +213,6 @@
         "name": "Red Buff",
         "image": "https://ddragon.leagueoflegends.com/cdn/14.23.1/img/tft-item/TFT_Item_RapidFireCannon.png",
         "description": "Attacks and Abilities 1% Burn and 33% Wound enemies for 5 seconds.",
-        "components": [1, 1],
         "stats": ["+35% Attack Speed"]
     },
     {
@@ -244,7 +220,6 @@
         "name": "Ionic Spark",
         "image": "https://ddragon.leagueoflegends.com/cdn/14.23.1/img/tft-item/TFT_Item_IonicSpark.png",
         "description": "30% Shred enemies within 2 hexes. When enemies cast an Ability, deal magic damage equal to 160% of the Mana spent.",
-        "components": [6, 8],
         "stats": ["+15 Ability Power","+150 Health"]
     },
     {
@@ -252,7 +227,6 @@
         "name": "Thief's Gloves",
         "image": "https://ddragon.leagueoflegends.com/cdn/14.23.1/img/tft-item/TFT_Item_ThiefsGloves.png",
         "description": "Each round: Equip 2 random items.",
-        "components": [5, 5],
         "stats": ["+20% Crit Chance","+150 Health"]
     },
     {
@@ -260,7 +234,6 @@
         "name": "Adaptive Helm",
         "image": "https://ddragon.leagueoflegends.com/cdn/14.23.1/img/tft-item/TFT_Item_AdaptiveHelm.png",
         "description": "Combat start: Gain different bonuses based on starting position. Front Two Rows: 40 Armor and Magic Resist. Gain 1 Mana when struck by an attack. Back Two Rows: 15 Ability Power. Gain 10 Mana every 3 seconds.",
-        "components": [6, 4],
         "stats": ["+10 Ability Power","+15 Mana"]
     },
     {
@@ -268,7 +241,6 @@
         "name": "Infinity Edge",
         "image": "https://ddragon.leagueoflegends.com/cdn/14.23.1/img/tft-item/TFT_Item_InfinityEdge.png",
         "description": "Abilities can critically strike. If the holder's abilities can already critically strike, gain 10% Critical Strike Damage instead.",
-        "components": [7, 5],
         "stats": ["+35% Attack Damage","+35% Crit Chance"]
     },
     {
@@ -276,7 +248,6 @@
         "name": "Sunfire Cape",
         "image": "https://ddragon.leagueoflegends.com/cdn/14.23.1/img/tft-item/TFT_Item_RedBuff.png",
         "description": "Gain 8% max Health. Every 2 seconds, deal 1% Burn and 33% Wound to an enemy within 2 hexes for 10 seconds.",
-        "components": [2, 3],
         "stats": ["+20 Armor","+150 Health"]
     },
     {
@@ -284,7 +255,6 @@
         "name": "Sterak's Gage",
         "image": "https://ddragon.leagueoflegends.com/cdn/14.23.1/img/tft-item/TFT_Item_SteraksGage.png",
         "description": "Once per combat at 60% Health, gain 25% max Health and 35% Attack Damage.",
-        "components": [7, 3],
         "stats": ["+15% Attack Damage","+150 Health"]
     },
     {
@@ -292,7 +262,6 @@
         "name": "Rabadon's Deathcap",
         "image": "https://ddragon.leagueoflegends.com/cdn/14.23.1/img/tft-item/TFT_Item_RabadonsDeathcap.png",
         "description": "This humble hat can help you make, or unmake, the world itself.",
-        "components": [8, 8],
         "stats": ["+50 Ability Power"]
     },
     {
@@ -300,7 +269,6 @@
         "name": "Archangel's Staff",
         "image": "https://ddragon.leagueoflegends.com/cdn/14.23.1/img/tft-item/TFT_Item_ArchangelsStaff.png",
         "description": "Combat start: Gain 30 Ability Power every 5 seconds in combat.",
-        "components": [8, 4],
         "stats": ["+20 Ability Power","+15 Mana"]
     },
     {
@@ -308,7 +276,6 @@
         "name": "Titan's Resolve",
         "image": "https://ddragon.leagueoflegends.com/cdn/14.23.1/img/tft-item/TFT_Item_TitansResolve.png",
         "description": "Gain 2% Attack Damage and 2 Ability Power when attacking or taking damage, stacking up to 25 times. At full stacks, gain 20 Armor and 20 Magic Resist.",
-        "components": [1, 2],
         "stats": ["+10% Attack Speed","+20 Armor"]
     },
     {
@@ -316,7 +283,6 @@
         "name": "Evenshroud",
         "image": "https://ddragon.leagueoflegends.com/cdn/14.23.1/img/tft-item/TFT_Item_SpectralGauntlet.png",
         "description": "30% Sunder enemies within 2 hexes. Gain 25 Armor and Magic Resist for the first 15 seconds of combat. Sunder: Reduce Armor",
-        "components": [3, 6],
         "stats": ["150 Health", "+20 Magic Resist"]
     },
     {
@@ -324,7 +290,6 @@
         "name": "Hand Of Justice",
         "image": "https://ddragon.leagueoflegends.com/cdn/14.23.1/img/tft-item/TFT_Item_UnstableConcoction.png",
         "description": "Gain 2 effects: 15% Attack Damage and 15 Ability Power. 12% Omnivamp. While above 50% health, double the Attack Damage and Ability Power. While below 50% Health, double the Omnivamp.",
-        "components": [4, 5],
         "stats": ["+20% Crit Chance", "+15 Mana"]
     },
     {
@@ -332,7 +297,6 @@
         "name": "Quicksilver",
         "image": "https://ddragon.leagueoflegends.com/cdn/14.23.1/img/tft-item/TFT_Item_Quicksilver.png",
         "description": "Combat start: Gain immunity to crowd control for 18 seconds. During this time, gain 3% Attack Speed every 2 seconds.",
-        "components": [6, 5],
         "stats": ["+20% Crit Chance", "+30% Attack Speed"]
     }
 ]
